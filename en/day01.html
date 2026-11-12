@@ -1,0 +1,1538 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="30 minutes a day of AI agents, following the open-source roadmap awesome-agentic-ai-zh">
+      
+      
+      
+        <link rel="canonical" href="https://lnnlinear2025-png.github.io/agent-daily/en/day01.html">
+      
+      
+        <link rel="prev" href="index.html">
+      
+      
+      
+        
+          <link rel="alternate" href="/agent-daily/" hreflang="zh">
+        
+          <link rel="alternate" href="/agent-daily/en/" hreflang="en">
+        
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Day 1 · What is an AI Agent & the learning map - Daily AI Agent Study</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#day-1-what-is-an-ai-agent-start-with-the-learning-map" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="index.html" title="Daily AI Agent Study" class="md-header__button md-logo" aria-label="Daily AI Agent Study" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.5 15.5c0 .37-.1.7-.28 1-.34-.59-.98-1-1.72-1s-1.38.41-1.72 1c-.17-.3-.28-.63-.28-1 0-1.1.9-2 2-2s2 .9 2 2M23 15v3c0 .55-.45 1-1 1h-1v1c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2v-1H2c-.55 0-1-.45-1-1v-3c0-.55.45-1 1-1h1c0-3.87 3.13-7 7-7h1V5.73c-.6-.34-1-.99-1-1.73 0-1.1.9-2 2-2s2 .9 2 2c0 .74-.4 1.39-1 1.73V7h1c3.87 0 7 3.13 7 7h1c.55 0 1 .45 1 1m-2 1h-2v-2c0-2.76-2.24-5-5-5h-4c-2.76 0-5 2.24-5 5v2H3v1h2v3h14v-3h2zm-5.5-2.5c-1.1 0-2 .9-2 2 0 .37.11.7.28 1 .34-.59.98-1 1.72-1s1.38.41 1.72 1c.18-.3.28-.63.28-1a2 2 0 0 0-2-2"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Daily AI Agent Study
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Day 1 · What is an AI Agent & the learning map
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到深色模式 / Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换到深色模式 / Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换到浅色模式 / Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换到浅色模式 / Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/agent-daily/" hreflang="zh" class="md-select__link">
+              简体中文
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/agent-daily/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/WenyuChiou/awesome-agentic-ai-zh" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Source roadmap: awesome-agentic-ai-zh
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="day01.html" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Daily Lessons
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="Daily AI Agent Study" class="md-nav__button md-logo" aria-label="Daily AI Agent Study" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.5 15.5c0 .37-.1.7-.28 1-.34-.59-.98-1-1.72-1s-1.38.41-1.72 1c-.17-.3-.28-.63-.28-1 0-1.1.9-2 2-2s2 .9 2 2M23 15v3c0 .55-.45 1-1 1h-1v1c0 1.11-.89 2-2 2H5a2 2 0 0 1-2-2v-1H2c-.55 0-1-.45-1-1v-3c0-.55.45-1 1-1h1c0-3.87 3.13-7 7-7h1V5.73c-.6-.34-1-.99-1-1.73 0-1.1.9-2 2-2s2 .9 2 2c0 .74-.4 1.39-1 1.73V7h1c3.87 0 7 3.13 7 7h1c.55 0 1 .45 1 1m-2 1h-2v-2c0-2.76-2.24-5-5-5h-4c-2.76 0-5 2.24-5 5v2H3v1h2v3h14v-3h2zm-5.5-2.5c-1.1 0-2 .9-2 2 0 .37.11.7.28 1 .34-.59.98-1 1.72-1s1.38.41 1.72 1c.18-.3.28-.63.28-1a2 2 0 0 0-2-2"/></svg>
+
+    </a>
+    Daily AI Agent Study
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/WenyuChiou/awesome-agentic-ai-zh" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Source roadmap: awesome-agentic-ai-zh
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daily Lessons
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Daily Lessons
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day 1 · What is an Agent
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="day01.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day 1 · What is an Agent
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#todays-mind-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Today's mind map
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. What exactly is an AI agent?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Three steps to learn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The map: 10 stations, two main tracks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. The map: 10 stations, two main tracks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shared-basics-everyone-starts-here" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shared basics (everyone starts here)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#then-pick-a-main-track" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Then pick a main track
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue-by-role-5-role-paths" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continue by role: 5 role paths
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Key terms today
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. How to avoid getting stuck
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Hands-on · Meet Claude Code and Codex
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Hands-on · Meet Claude Code and Codex">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-they-can-do-for-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What they can do for you
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-to-use-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where to use them
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#which-one-to-pick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Which one to pick
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#three-rules-for-your-first-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Three rules for your first time
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-first-prompt-today" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your first prompt today
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#todays-exercises-with-answers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Today's exercises (with answers)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Today&#39;s exercises (with answers)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercise-1-which-of-these-are-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 1 · Which of these are agents?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-2-sort-these-into-the-three-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 2 · Sort these into the three steps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-3-pick-a-track-for-each-colleague" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 3 · Pick a track for each colleague
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-4-hands-on-which-tasks-suit-claude-code-codex" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 4 · Hands-on: which tasks suit Claude Code / Codex?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#think-about-it-make-it-reliable-comes-last-so-why-cant-you-skip-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Think about it · "Make it reliable" comes last, so why can't you skip it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sources-and-further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources and further reading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#todays-mind-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Today's mind map
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. What exactly is an AI agent?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Three steps to learn
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. The map: 10 stations, two main tracks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. The map: 10 stations, two main tracks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shared-basics-everyone-starts-here" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shared basics (everyone starts here)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#then-pick-a-main-track" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Then pick a main track
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#continue-by-role-5-role-paths" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Continue by role: 5 role paths
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Key terms today
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. How to avoid getting stuck
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Hands-on · Meet Claude Code and Codex
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Hands-on · Meet Claude Code and Codex">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#what-they-can-do-for-you" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What they can do for you
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#where-to-use-them" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Where to use them
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#which-one-to-pick" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Which one to pick
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#three-rules-for-your-first-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Three rules for your first time
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#your-first-prompt-today" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Your first prompt today
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#todays-exercises-with-answers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Today's exercises (with answers)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Today&#39;s exercises (with answers)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#exercise-1-which-of-these-are-agents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 1 · Which of these are agents?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-2-sort-these-into-the-three-steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 2 · Sort these into the three steps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-3-pick-a-track-for-each-colleague" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 3 · Pick a track for each colleague
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#exercise-4-hands-on-which-tasks-suit-claude-code-codex" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exercise 4 · Hands-on: which tasks suit Claude Code / Codex?
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#think-about-it-make-it-reliable-comes-last-so-why-cant-you-skip-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Think about it · "Make it reliable" comes last, so why can't you skip it?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sources-and-further-reading" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sources and further reading
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+
+
+  
+  
+
+
+<h1 id="day-1-what-is-an-ai-agent-start-with-the-learning-map">Day 1 · What is an AI Agent? Start with the learning map<a class="headerlink" href="#day-1-what-is-an-ai-agent-start-with-the-learning-map" title="Permanent link">&para;</a></h1>
+<div class="day-meta">
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg></span> Day 1 / 30 · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a7 7 0 0 1-7-7 7 7 0 0 1 7-7 7 7 0 0 1 7 7 7 7 0 0 1-7 7m7.03-12.61 1.42-1.42c-.45-.51-.9-.97-1.41-1.41L17.62 6c-1.55-1.26-3.5-2-5.62-2a9 9 0 0 0-9 9 9 9 0 0 0 9 9c5 0 9-4.03 9-9 0-2.12-.74-4.07-1.97-5.61M11 14h2V8h-2m4-7H9v2h6z"/></svg></span> about 40 min · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.5c-1.35-.85-3.8-1.5-5.5-1.5-1.65 0-3.35.3-4.75 1.05-.1.05-.15.05-.25.05-.25 0-.5-.25-.5-.5V6c.6-.45 1.25-.75 2-1 1.11-.35 2.33-.5 3.5-.5 1.95 0 4.05.4 5.5 1.5 1.45-1.1 3.55-1.5 5.5-1.5 1.17 0 2.39.15 3.5.5.75.25 1.4.55 2 1v14.6c0 .25-.25.5-.5.5-.1 0-.15 0-.25-.05-1.4-.75-3.1-1.05-4.75-1.05-1.7 0-4.15.65-5.5 1.5M12 8v11.5c1.35-.85 3.8-1.5 5.5-1.5 1.2 0 2.4.15 3.5.5V7c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5m1 3.5c1.11-.68 2.6-1 4.5-1 .91 0 1.76.09 2.5.28V9.23c-.87-.15-1.71-.23-2.5-.23q-2.655 0-4.5.84zm4.5.17c-1.71 0-3.21.26-4.5.79v1.69c1.11-.65 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24v-1.5c-.87-.16-1.71-.23-2.5-.23m2.5 2.9c-.87-.16-1.71-.24-2.5-.24-1.83 0-3.33.27-4.5.8v1.69c1.11-.66 2.6-.99 4.5-.99 1.04 0 1.88.08 2.5.24z"/></svg></span> Sources: README · ROADMAP · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 5.5A3.5 3.5 0 0 1 15.5 9a3.5 3.5 0 0 1-3.5 3.5A3.5 3.5 0 0 1 8.5 9 3.5 3.5 0 0 1 12 5.5M5 8c.56 0 1.08.15 1.53.42-.15 1.43.27 2.85 1.13 3.96C7.16 13.34 6.16 14 5 14a3 3 0 0 1-3-3 3 3 0 0 1 3-3m14 0a3 3 0 0 1 3 3 3 3 0 0 1-3 3c-1.16 0-2.16-.66-2.66-1.62a5.54 5.54 0 0 0 1.13-3.96c.45-.27.97-.42 1.53-.42M5.5 18.25c0-2.07 2.91-3.75 6.5-3.75s6.5 1.68 6.5 3.75V20h-13zM0 20v-1.5c0-1.39 1.89-2.56 4.45-2.9-.59.68-.95 1.62-.95 2.65V20zm24 0h-3.5v-1.75c0-1.03-.36-1.97-.95-2.65 2.56.34 4.45 1.51 4.45 2.9z"/></svg></span> For everyone</p>
+</div>
+<p>No code today. Two goals: <strong>know what an agent is and where the next 30 days will take you</strong>, then <strong>meet two agent tools you can use to save time right away: Claude Code and Codex.</strong></p>
+<h2 id="todays-mind-map">Today's mind map<a class="headerlink" href="#todays-mind-map" title="Permanent link">&para;</a></h2>
+<div class="mm-scroll" markdown="0">
+<svg class="mindmap" viewBox="0 0 2010 616" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="The AI Agent Big Picture 思维导图" font-family="-apple-system,PingFang SC,Microsoft YaHei,Noto Sans SC,sans-serif"><path d="M1176.4,308.0 C1200.4,308.0 1200.4,98.0 1224.4,98.0" fill="none" stroke="#4f46e5" stroke-width="3" stroke-linecap="round"/><path d="M1511.4,98.0 C1529.4,98.0 1529.4,29.0 1547.4,29.0" fill="none" stroke="#4f46e5" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,98.0 C1529.4,98.0 1529.4,75.0 1547.4,75.0" fill="none" stroke="#4f46e5" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,98.0 C1529.4,98.0 1529.4,121.0 1547.4,121.0" fill="none" stroke="#4f46e5" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,98.0 C1529.4,98.0 1529.4,167.0 1547.4,167.0" fill="none" stroke="#4f46e5" stroke-width="1.6" stroke-linecap="round"/><path d="M1176.4,308.0 C1200.4,308.0 1200.4,285.0 1224.4,285.0" fill="none" stroke="#d97706" stroke-width="3" stroke-linecap="round"/><path d="M1511.4,285.0 C1529.4,285.0 1529.4,239.0 1547.4,239.0" fill="none" stroke="#d97706" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,285.0 C1529.4,285.0 1529.4,285.0 1547.4,285.0" fill="none" stroke="#d97706" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,285.0 C1529.4,285.0 1529.4,331.0 1547.4,331.0" fill="none" stroke="#d97706" stroke-width="1.6" stroke-linecap="round"/><path d="M1176.4,308.0 C1200.4,308.0 1200.4,495.0 1224.4,495.0" fill="none" stroke="#0891b2" stroke-width="3" stroke-linecap="round"/><path d="M1511.4,495.0 C1529.4,495.0 1529.4,403.0 1547.4,403.0" fill="none" stroke="#0891b2" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,495.0 C1529.4,495.0 1529.4,449.0 1547.4,449.0" fill="none" stroke="#0891b2" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,495.0 C1529.4,495.0 1529.4,495.0 1547.4,495.0" fill="none" stroke="#0891b2" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,495.0 C1529.4,495.0 1529.4,541.0 1547.4,541.0" fill="none" stroke="#0891b2" stroke-width="1.6" stroke-linecap="round"/><path d="M1511.4,495.0 C1529.4,495.0 1529.4,587.0 1547.4,587.0" fill="none" stroke="#0891b2" stroke-width="1.6" stroke-linecap="round"/><path d="M833.4,308.0 C809.4,308.0 809.4,144.0 785.4,144.0" fill="none" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/><path d="M498.4,144.0 C480.4,144.0 480.4,75.0 462.4,75.0" fill="none" stroke="#7c3aed" stroke-width="1.6" stroke-linecap="round"/><path d="M498.4,144.0 C480.4,144.0 480.4,121.0 462.4,121.0" fill="none" stroke="#7c3aed" stroke-width="1.6" stroke-linecap="round"/><path d="M498.4,144.0 C480.4,144.0 480.4,167.0 462.4,167.0" fill="none" stroke="#7c3aed" stroke-width="1.6" stroke-linecap="round"/><path d="M498.4,144.0 C480.4,144.0 480.4,213.0 462.4,213.0" fill="none" stroke="#7c3aed" stroke-width="1.6" stroke-linecap="round"/><path d="M833.4,308.0 C809.4,308.0 809.4,331.0 785.4,331.0" fill="none" stroke="#db2777" stroke-width="3" stroke-linecap="round"/><path d="M498.4,331.0 C480.4,331.0 480.4,285.0 462.4,285.0" fill="none" stroke="#db2777" stroke-width="1.6" stroke-linecap="round"/><path d="M498.4,331.0 C480.4,331.0 480.4,331.0 462.4,331.0" fill="none" stroke="#db2777" stroke-width="1.6" stroke-linecap="round"/><path d="M498.4,331.0 C480.4,331.0 480.4,377.0 462.4,377.0" fill="none" stroke="#db2777" stroke-width="1.6" stroke-linecap="round"/><path d="M833.4,308.0 C809.4,308.0 809.4,495.0 785.4,495.0" fill="none" stroke="#059669" stroke-width="3" stroke-linecap="round"/><path d="M498.4,495.0 C480.4,495.0 480.4,449.0 462.4,449.0" fill="none" stroke="#059669" stroke-width="1.6" stroke-linecap="round"/><path d="M498.4,495.0 C480.4,495.0 480.4,495.0 462.4,495.0" fill="none" stroke="#059669" stroke-width="1.6" stroke-linecap="round"/><path d="M498.4,495.0 C480.4,495.0 480.4,541.0 462.4,541.0" fill="none" stroke="#059669" stroke-width="1.6" stroke-linecap="round"/><a href="#s1"><rect x="1224.4" y="76.0" width="287.0" height="44" rx="10" fill="#4f46e5" stroke="#4f46e5" stroke-width="1.5"/><text x="1367.9" y="104.1" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">① What is an Agent</text></a><rect x="1547.4" y="12.0" width="422.2" height="34" rx="17" fill="#fff" stroke="#4f46e5" stroke-width="1.5"/><text x="1758.6" y="34.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Definition: acts on its own toward your goal</text><rect x="1547.4" y="58.0" width="406.2" height="34" rx="17" fill="#fff" stroke="#4f46e5" stroke-width="1.5"/><text x="1750.6" y="80.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Loop: observe → choose → use tools → check</text><rect x="1547.4" y="104.0" width="377.4" height="34" rx="17" fill="#fff" stroke="#4f46e5" stroke-width="1.5"/><text x="1736.2" y="126.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Boundary: only within the rules you set</text><rect x="1547.4" y="150.0" width="422.2" height="34" rx="17" fill="#fff" stroke="#4f46e5" stroke-width="1.5"/><text x="1758.6" y="172.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Not agents: one-shot chatbots, fixed scripts</text><a href="#s2"><rect x="1224.4" y="263.0" width="287.0" height="44" rx="10" fill="#d97706" stroke="#d97706" stroke-width="1.5"/><text x="1367.9" y="291.1" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">② Three Steps</text></a><rect x="1547.4" y="222.0" width="334.6" height="34" rx="17" fill="#fff" stroke="#d97706" stroke-width="1.5"/><text x="1714.7" y="244.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Basics: LLM · Prompt · API · Token</text><rect x="1547.4" y="268.0" width="333.9" height="34" rx="17" fill="#fff" stroke="#d97706" stroke-width="1.5"/><text x="1714.4" y="290.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Build: Tools · Agent Loop · Memory</text><rect x="1547.4" y="314.0" width="414.6" height="34" rx="17" fill="#fff" stroke="#d97706" stroke-width="1.5"/><text x="1754.7" y="336.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Make it reliable: Permissions · Eval · HITL</text><a href="#s3"><rect x="1224.4" y="473.0" width="287.0" height="44" rx="10" fill="#0891b2" stroke="#0891b2" stroke-width="1.5"/><text x="1367.9" y="501.1" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">③ Map Structure</text></a><rect x="1547.4" y="386.0" width="279.5" height="34" rx="17" fill="#fff" stroke="#0891b2" stroke-width="1.5"/><text x="1687.2" y="408.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">10 stations: Stage 0–8 + 7.5</text><rect x="1547.4" y="432.0" width="298.1" height="34" rx="17" fill="#fff" stroke="#0891b2" stroke-width="1.5"/><text x="1696.5" y="454.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Shared basics: Stage 0 → 1 → 2</text><rect x="1547.4" y="478.0" width="314.7" height="34" rx="17" fill="#fff" stroke="#0891b2" stroke-width="1.5"/><text x="1704.8" y="500.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Track A: use existing CLI agents</text><rect x="1547.4" y="524.0" width="287.8" height="34" rx="17" fill="#fff" stroke="#0891b2" stroke-width="1.5"/><text x="1691.4" y="546.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Track B: build your own agent</text><rect x="1547.4" y="570.0" width="261.0" height="34" rx="17" fill="#fff" stroke="#0891b2" stroke-width="1.5"/><text x="1677.9" y="592.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">5 role paths: read by role</text><a href="#s6"><rect x="498.4" y="122.0" width="287.0" height="44" rx="10" fill="#7c3aed" stroke="#7c3aed" stroke-width="1.5"/><text x="641.9" y="150.1" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">⑥ Hands-on: Claude / Codex</text></a><rect x="38.9" y="58.0" width="423.5" height="34" rx="17" fill="#fff" stroke="#7c3aed" stroke-width="1.5"/><text x="250.6" y="80.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Does: read files · edit files · run commands</text><rect x="47.8" y="104.0" width="414.6" height="34" rx="17" fill="#fff" stroke="#7c3aed" stroke-width="1.5"/><text x="255.1" y="126.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Uses: merge sheets · read docs · draft text</text><rect x="74.1" y="150.0" width="388.3" height="34" rx="17" fill="#fff" stroke="#7c3aed" stroke-width="1.5"/><text x="268.2" y="172.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Where: desktop app · CLI · plugins · web</text><rect x="12.0" y="196.0" width="450.4" height="34" rx="17" fill="#fff" stroke="#7c3aed" stroke-width="1.5"/><text x="237.2" y="218.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Tips: be specific · ask for proof · Esc to stop</text><a href="#s5"><rect x="498.4" y="309.0" width="287.0" height="44" rx="10" fill="#db2777" stroke="#db2777" stroke-width="1.5"/><text x="641.9" y="337.1" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">⑤ How to Learn</text></a><rect x="264.2" y="268.0" width="198.2" height="34" rx="17" fill="#fff" stroke="#db2777" stroke-width="1.5"/><text x="363.3" y="290.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">One Stage at a time</text><rect x="165.6" y="314.0" width="296.8" height="34" rx="17" fill="#fff" stroke="#db2777" stroke-width="1.5"/><text x="314.0" y="336.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Run it first, change one thing</text><rect x="138.7" y="360.0" width="323.7" height="34" rx="17" fill="#fff" stroke="#db2777" stroke-width="1.5"/><text x="300.6" y="382.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Meet the done-check, then move on</text><a href="#s4"><rect x="498.4" y="473.0" width="287.0" height="44" rx="10" fill="#059669" stroke="#059669" stroke-width="1.5"/><text x="641.9" y="501.1" text-anchor="middle" font-size="17" font-weight="700" fill="#fff">④ Key Terms</text></a><rect x="199.5" y="432.0" width="262.9" height="34" rx="17" fill="#fff" stroke="#059669" stroke-width="1.5"/><text x="331.0" y="454.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">LLM · Prompt · Token · API</text><rect x="281.4" y="478.0" width="181.0" height="34" rx="17" fill="#fff" stroke="#059669" stroke-width="1.5"/><text x="371.9" y="500.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Tool · Agent Loop</text><rect x="182.9" y="524.0" width="279.5" height="34" rx="17" fill="#fff" stroke="#059669" stroke-width="1.5"/><text x="322.6" y="546.8" text-anchor="middle" font-size="16" font-weight="400" fill="#1f2433">Eval · HITL (human approval)</text><rect x="833.4" y="269.0" width="343.0" height="78" rx="16" fill="#1f2433" stroke="#1f2433" stroke-width="1.5"/><text x="1004.9" y="304.0" text-anchor="middle" font-size="22" font-weight="700" fill="#fff">The AI Agent Big Picture</text><text x="1004.9" y="328.0" text-anchor="middle" font-size="14" fill="#fff" opacity=".8">What it is · How to learn · Which path</text></svg>
+</div>
+<p class="mm-hint">Click a branch to jump to its section</p>
+
+<h2 id="s1">1. What exactly is an AI agent?<a class="headerlink" href="#s1" title="Permanent link">&para;</a></h2>
+<div class="admonition abstract">
+<p class="admonition-title">Definition</p>
+<p>An <strong>AI agent</strong> is "an AI system that, for a person's goal, decides the next step by itself and takes action."</p>
+</div>
+<p>Once you give it a goal, it repeats these steps:</p>
+<div class="loop" markdown="0">
+<span>Read the situation</span><i>→</i><span>Choose the next step</span><i>→</i><span>Use tools when needed</span><i>→</i><span>Check the result</span><i>→</i><span>Continue / fix / stop / hand back</span>
+</div>
+
+<p>It can finish work for you automatically, but <strong>only within the rules and permissions you give it</strong>.</p>
+<div class="admonition example">
+<p class="admonition-title">Think of it as an intern who can get things done on their own</p>
+<p>You say, "Book me a train to Shanghai next Wednesday." A plain chatbot only tells you <strong>how</strong> to book. An agent checks your calendar, searches trains, picks a good time, and asks before paying: "Confirm the 8:00 G7 train?"</p>
+</div>
+<p><strong>What is not necessarily an agent:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Why it doesn't count</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A chatbot that answers one question at a time</td>
+<td>It doesn't choose its next step, use tools, or adjust based on results</td>
+</tr>
+<tr>
+<td>A script where every step is hard-coded</td>
+<td>No judgment; it won't change course when something unexpected happens</td>
+</tr>
+</tbody>
+</table>
+<h2 id="s2">2. Three steps to learn<a class="headerlink" href="#s2" title="Permanent link">&para;</a></h2>
+<p>You don't need to know every term up front. The map takes you through three things in order:</p>
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 7v2h2v8h2V7zm2-5a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2"/></svg></span> <strong>Learn the basics</strong></p>
+<hr />
+<p>What an LLM (a model that reads and writes language), a prompt, an API (an interface programs use to call a service), and a token are</p>
+</li>
+<li>
+<p><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7v2h4v2h-2a2 2 0 0 0-2 2v4h6v-2h-4v-2h2a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zm3-5a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2"/></svg></span> <strong>Build something</strong></p>
+<hr />
+<p>Let the model call tools, run an agent loop, read files, and remember things</p>
+</li>
+<li>
+<p><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 15v-1.5a1.5 1.5 0 0 0-1.5-1.5 1.5 1.5 0 0 0 1.5-1.5V9a2 2 0 0 0-2-2H9v2h4v2h-2v2h2v2H9v2h4a2 2 0 0 0 2-2M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2"/></svg></span> <strong>Make it reliable</strong></p>
+<hr />
+<p>Add permissions, evals, human approval, observability, and failure recovery</p>
+</li>
+</ul>
+</div>
+<h2 id="s3">3. The map: 10 stations, two main tracks<a class="headerlink" href="#s3" title="Permanent link">&para;</a></h2>
+<p>The whole map has <strong>8 topic stages + a Stage 0 prep station + a Stage 7.5 advanced reading station</strong>, 10 stations in total.</p>
+<h3 id="shared-basics-everyone-starts-here">Shared basics (everyone starts here)<a class="headerlink" href="#shared-basics-everyone-starts-here" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>What it answers</th>
+<th>What you can do after</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>0</strong> Foundations</td>
+<td>Are your computer and basic tools ready?</td>
+<td>Call a public API with Python, read JSON, save work with Git</td>
+</tr>
+<tr>
+<td><strong>1</strong> LLM basics</td>
+<td>How LLMs, tokens, context, and models differ</td>
+<td>Call an LLM and choose a cloud or local model for the job</td>
+</tr>
+<tr>
+<td><strong>2</strong> Prompt design</td>
+<td>How to state goals, data, rules, and output clearly</td>
+<td>Compare the limits of zero-shot, few-shot, and CoT</td>
+</tr>
+</tbody>
+</table>
+<p>If you already know Python, Git, and APIs, you can skip Stage 0.</p>
+<h3 id="then-pick-a-main-track">Then pick a main track<a class="headerlink" href="#then-pick-a-main-track" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Track A · CLI Power User (our route)</label><label for="__tabbed_1_2">Track B · Agent Builder</label><label for="__tabbed_1_3">Everyday users</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><strong>For</strong>: people who want to get work done with existing tools like Claude Code and Codex</p>
+<p><strong>Order</strong>: <code>A1 → A2 → Stage 5 → A3 → Stage 8</code>　<strong>Time</strong>: about 8–10 weeks</p>
+</div>
+<div class="tabbed-block">
+<p><strong>For</strong>: people who want to write their own agents, tool loops, workflows, and services</p>
+<p><strong>Order</strong>: <code>Stage 3 → 4 → 5 → 6 → 7 → 7.5 → 8</code>　<strong>Time</strong>: about 16–22 weeks for the core</p>
+</div>
+<div class="tabbed-block">
+<p><strong>For</strong>: people who won't code for now and just want to use AI safely</p>
+<p><strong>Order</strong>: go straight to the role guide and read as needed</p>
+</div>
+</div>
+</div>
+<p>Both tracks pass through <strong>Stage 5 (the Claude Code ecosystem)</strong> and <strong>Stage 8 (agent interfaces)</strong>: Track A learns how to use them, Track B learns how to build them into its own agent.</p>
+<h3 id="continue-by-role-5-role-paths">Continue by role: 5 role paths<a class="headerlink" href="#continue-by-role-5-role-paths" title="Permanent link">&para;</a></h3>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 22a3 3 0 0 1-3-3c0-.6.18-1.16.5-1.63L9 7.81V6a1 1 0 0 1-1-1V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1v1.81l5.5 9.56c.32.47.5 1.03.5 1.63a3 3 0 0 1-3 3zm-1-3a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1c0-.21-.07-.41-.18-.57l-2.29-3.96L14 17l-5.07-5.07-3.75 6.5c-.11.16-.18.36-.18.57m8-9a1 1 0 0 0-1 1 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-1-1"/></svg></span> Researchers · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 6h16v10H4m16 2a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H4c-1.11 0-2 .89-2 2v10a2 2 0 0 0 2 2H0v2h24v-2z"/></svg></span> Developers · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg></span> Teachers · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2M9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2z"/></svg></span> Knowledge workers · <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 4a4 4 0 0 1 4 4 4 4 0 0 1-4 4 4 4 0 0 1-4-4 4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg></span> Everyday users. Read what fits; you don't need all of them.</p>
+<h2 id="s4">4. Key terms today<a class="headerlink" href="#s4" title="Permanent link">&para;</a></h2>
+<div class="grid cards">
+<ul>
+<li>
+<p><strong>LLM</strong> · <em>Large Language Model</em></p>
+<p>The "brain" that reads and writes language, such as Claude, GPT, or DeepSeek.</p>
+</li>
+<li>
+<p><strong>Prompt</strong></p>
+<p>The instructions and material you give the model, like a task brief for an employee.</p>
+</li>
+<li>
+<p><strong>Token</strong></p>
+<p>The smallest unit a model reads and writes; pricing and length limits are counted in tokens.</p>
+</li>
+<li>
+<p><strong>API</strong> · <em>Application Programming Interface</em></p>
+<p>The "socket" a program uses to call a service; agents use it to call models and tools.</p>
+</li>
+<li>
+<p><strong>Tool</strong></p>
+<p>What lets an agent act: search, read files, send messages, check the weather…</p>
+</li>
+<li>
+<p><strong>Agent Loop</strong></p>
+<p>The repeating "think → act → check → think again" cycle; it needs a maximum turn count so it can't run forever.</p>
+</li>
+<li>
+<p><strong>Eval</strong> · <em>Evaluation</em></p>
+<p>A fixed set of test cases that checks whether the agent is right, so you spot regressions right after a change.</p>
+</li>
+<li>
+<p><strong>HITL</strong> · <em>Human-in-the-loop</em></p>
+<p>Human approval: key actions (paying, deleting, sending externally) need a person to confirm first.</p>
+</li>
+</ul>
+</div>
+<p>Forgot a term? Check the <a href="https://github.com/WenyuChiou/awesome-agentic-ai-zh/blob/main/resources/glossary.en.md">glossary</a> any time.</p>
+<h2 id="s5">5. How to avoid getting stuck<a class="headerlink" href="#s5" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>One stage at a time</strong>: answer the chapter's core question first.</li>
+<li><strong>Key terms and required reading first</strong>: you'll use them directly in later exercises.</li>
+<li><strong>Copy the first command as is</strong>: get it running instead of starting from a blank file.</li>
+<li><strong>Change one thing at a time</strong>: test right after each change so you know what caused the result.</li>
+<li><strong>Meet the done-check before moving on</strong>: understanding is not the same as being able to do it.</li>
+</ol>
+<h2 id="s6">6. Hands-on · Meet Claude Code and Codex<a class="headerlink" href="#s6" title="Permanent link">&para;</a></h2>
+<p>The easiest agents to start with are two ready-made tools: <strong>Claude Code</strong> (by Anthropic) and <strong>Codex</strong> (by OpenAI). They don't just chat: they can <strong>read files on your computer, edit them, and run commands</strong> to carry a task from start to finish. "Code" is in the name, but plenty of everyday office work fits too.</p>
+<h3 id="what-they-can-do-for-you">What they can do for you<a class="headerlink" href="#what-they-can-do-for-you" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Task at work</th>
+<th>Before</th>
+<th>With the tool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Merge dozens of Excel / CSV files in a folder, dedupe, unify formats</td>
+<td>Copy and paste by hand, half a day</td>
+<td>Describe what you need; it writes the steps and produces the result file</td>
+</tr>
+<tr>
+<td>Read a long requirements doc or contract and pull out key points and risks</td>
+<td>Page by page, 1–2 hours</td>
+<td>Point it at the file, get a summary in minutes, then check the key parts yourself</td>
+</tr>
+<tr>
+<td>Draft a weekly report, meeting minutes, or an email</td>
+<td>Start from a blank page</td>
+<td>Give it the material and format, get a draft, then edit</td>
+</tr>
+<tr>
+<td>Turn sales data into charts and conclusions</td>
+<td>Pivot tables and charts by hand</td>
+<td>It analyzes, charts, writes conclusions, and tells you the method it used</td>
+</tr>
+<tr>
+<td>Repetitive daily clean-up</td>
+<td>Do it by hand every day</td>
+<td>Have it write a small script or scheduled task that runs on its own</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition warning">
+<p class="admonition-title">What it's not good at, and where you must check</p>
+<ul>
+<li><strong>Verify facts and numbers</strong>: it can misread or miscalculate. Always check key conclusions against the source.</li>
+<li><strong>It doesn't make decisions for you</strong>: it proposes; you approve anything final, external, financial, or destructive.</li>
+<li><strong>Mind company data</strong>: only give it files you're allowed to process with AI tools; check company rules before using sensitive customer data.</li>
+</ul>
+</div>
+<h3 id="where-to-use-them">Where to use them<a class="headerlink" href="#where-to-use-them" title="Permanent link">&para;</a></h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Claude Code</label><label for="__tabbed_2_2">Codex</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ul>
+<li><strong>Desktop app</strong>: install the Claude desktop app and open the <strong>Code</strong> tab. Best for non-programmers: a visual interface that shows exactly which files it changed.</li>
+<li><strong>Terminal</strong>: the most complete version. Install in Windows PowerShell with <code>irm https://claude.ai/install.ps1 | iex</code>, go to your work folder, and run <code>claude</code>.</li>
+<li><strong>VS Code / JetBrains plugins</strong>: use it inside your editor.</li>
+<li><strong>Web</strong> at claude.ai/code: no install; good for projects hosted on GitHub.</li>
+</ul>
+<p>Requires a Claude subscription or an Anthropic account.</p>
+</div>
+<div class="tabbed-block">
+<ul>
+<li><strong>ChatGPT desktop app / web / mobile</strong>: use Codex directly inside ChatGPT.</li>
+<li><strong>Codex CLI</strong>: run <code>codex</code> in a project folder and choose <strong>Sign in with ChatGPT</strong> the first time.</li>
+<li><strong>IDE extension, Codex Cloud</strong>: use it in your editor, or hand tasks off to run in the cloud.</li>
+</ul>
+<p>Requires a paid ChatGPT plan such as Plus, Pro, Business, Enterprise, or Edu.</p>
+</div>
+</div>
+</div>
+<h3 id="which-one-to-pick">Which one to pick<a class="headerlink" href="#which-one-to-pick" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Situation</th>
+<th>Suggestion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Your company already provides one of them</td>
+<td>Start there. Their abilities are close; practice matters more than the choice of tool</td>
+</tr>
+<tr>
+<td>You're not comfortable with the command line</td>
+<td>Start with a desktop app (the Code tab in Claude's desktop app, or Codex in the ChatGPT desktop app)</td>
+</tr>
+<tr>
+<td>You want every feature and batch automation</td>
+<td>Use the command-line versions (<code>claude</code> / <code>codex</code>)</td>
+</tr>
+<tr>
+<td>Not sure</td>
+<td>Try the same small task in both and keep the one that feels right</td>
+</tr>
+</tbody>
+</table>
+<h3 id="three-rules-for-your-first-time">Three rules for your first time<a class="headerlink" href="#three-rules-for-your-first-time" title="Permanent link">&para;</a></h3>
+<ol>
+<li><strong>Start it in a dedicated work folder</strong>, and practice on copies of your files, not the originals.</li>
+<li>
+<p><strong>Be specific about the task</strong>: say which file, what result, and what counts as done.</p>
+<table>
+<thead>
+<tr>
+<th>Instead of</th>
+<th>Try</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>"Tidy up the data"</td>
+<td>"Merge every CSV in the <code>sales/</code> folder into one table, sort by date, remove duplicate order IDs, save it as <code>summary.xlsx</code>, then tell me how many rows were merged and how many duplicates were removed"</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p><strong>Ask for evidence</strong>: when it's done, have it explain what it did and how it checked, then spot-check the result. If it drifts, press <code>Esc</code> to interrupt and restate the task.</p>
+</li>
+</ol>
+<h3 id="your-first-prompt-today">Your first prompt today<a class="headerlink" href="#your-first-prompt-today" title="Permanent link">&para;</a></h3>
+<p>Open Claude Code or Codex in a folder with a few work documents and type:</p>
+<div class="highlight"><pre><span></span><code>Look through the files in this folder and tell me:
+1. Roughly what each file contains (one sentence each)
+2. Which repetitive tasks you think you could take over
+Don't change any files yet.
+</code></pre></div>
+<h2 id="todays-exercises-with-answers"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg></span> Today's exercises (with answers)<a class="headerlink" href="#todays-exercises-with-answers" title="Permanent link">&para;</a></h2>
+<h3 id="exercise-1-which-of-these-are-agents">Exercise 1 · Which of these are agents?<a class="headerlink" href="#exercise-1-which-of-these-are-agents" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>A.</strong> A support bot: you ask for opening hours and it replies "9:00–18:00."</li>
+<li><strong>B.</strong> A script that emails a fixed-format sales report every day at 8:00.</li>
+<li><strong>C.</strong> You say "Turn this week's meetings into minutes and post them to the group," and it reads your calendar, finds the meeting notes, writes the minutes, and asks you before sending.</li>
+<li><strong>D.</strong> Our Feishu study assistant: it sends lessons every day and, when you ask a question, looks up the material before answering.</li>
+</ul>
+<details class="success">
+<summary>Show answer</summary>
+<p><strong>C and D are agents; A and B are not.</strong></p>
+<ul>
+<li><strong>A</strong>: one question, one answer. It doesn't choose its next step or use tools; it's a plain chatbot.</li>
+<li><strong>B</strong>: every step is hard-coded and needs no judgment; it's a fixed script (automation ≠ agent).</li>
+<li><strong>C</strong>: it has a goal, picks its own steps, uses several tools, checks results, and hands back to you before a key action. A textbook agent.</li>
+<li><strong>D</strong>: when answering, it decides which material to look up (a tool) and answers from the result, so it's an agent. Note that its daily push is triggered on a schedule, and the trigger itself is fixed.</li>
+</ul>
+</details>
+<h3 id="exercise-2-sort-these-into-the-three-steps">Exercise 2 · Sort these into the three steps<a class="headerlink" href="#exercise-2-sort-these-into-the-three-steps" title="Permanent link">&para;</a></h3>
+<p>Token, letting the model call a weather tool, human approval, prompt, reading files, eval, agent loop, failure recovery</p>
+<details class="success">
+<summary>Show answer</summary>
+<ul>
+<li><strong>Learn the basics</strong>: token, prompt</li>
+<li><strong>Build something</strong>: letting the model call a weather tool, reading files, agent loop</li>
+<li><strong>Make it reliable</strong>: human approval, eval, failure recovery</li>
+</ul>
+</details>
+<h3 id="exercise-3-pick-a-track-for-each-colleague">Exercise 3 · Pick a track for each colleague<a class="headerlink" href="#exercise-3-pick-a-track-for-each-colleague" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Wang is a product manager who wants AI tools to organize requirement docs and write weekly reports, with no plans to code.</li>
+<li>Li is a backend engineer who wants to build an agent service that looks up orders and handles refund requests automatically.</li>
+<li>Zhang works in operations, writes copy with AI, and worries that pasting in customer information isn't safe.</li>
+</ol>
+<details class="success">
+<summary>Show answer</summary>
+<ul>
+<li><strong>Wang → Track A</strong> (CLI Power User), or start with the knowledge-worker role path. He wants to get work done with existing tools.</li>
+<li><strong>Li → Track B</strong> (Agent Builder). He has to write tool loops and a service, and refunds involve money, so Stage 7's permissions, human approval, and recovery are a must.</li>
+<li><strong>Zhang → the everyday-user path</strong>. The focus is privacy and safe use; no coding needed for now.</li>
+</ul>
+<p>All three should go through the core ideas of Stage 0–2 first (optional for Zhang).</p>
+</details>
+<h3 id="exercise-4-hands-on-which-tasks-suit-claude-code-codex">Exercise 4 · Hands-on: which tasks suit Claude Code / Codex?<a class="headerlink" href="#exercise-4-hands-on-which-tasks-suit-claude-code-codex" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>A.</strong> Turn 30 meeting transcripts into minutes with one consistent format</li>
+<li><strong>B.</strong> Decide how to split next quarter's budget</li>
+<li><strong>C.</strong> Every Monday, export last week's ticket data, compute stats, and chart it</li>
+<li><strong>D.</strong> Send a client a formal email that involves contract amounts</li>
+</ul>
+<details class="success">
+<summary>Show answer</summary>
+<ul>
+<li><strong>A and C fit well</strong>: repetitive, patterned, and easy to check. C can even become a task that runs automatically every week.</li>
+<li><strong>B shouldn't be handed over directly</strong>: it's a decision you own. Let it gather past data and lay out options with pros and cons, but you make the call.</li>
+<li><strong>D: let it draft, but you must review and send it</strong>: it involves money and external communication, which is exactly where human approval is required.</li>
+</ul>
+</details>
+<h3 id="think-about-it-make-it-reliable-comes-last-so-why-cant-you-skip-it">Think about it · "Make it reliable" comes last, so why can't you skip it?<a class="headerlink" href="#think-about-it-make-it-reliable-comes-last-so-why-cant-you-skip-it" title="Permanent link">&para;</a></h3>
+<details class="success">
+<summary>Show answer</summary>
+<p>Because an agent <strong>acts</strong>, it doesn't just talk. When a chatbot gives a wrong answer, a person notices at a glance. When an agent takes a wrong step, the email may already be sent, the file deleted, the money paid.</p>
+<p>That's why you add <strong>permissions</strong> (only the abilities it needs), <strong>human approval</strong> (confirm key actions first), <strong>evals</strong> (know right away if a change made things worse), <strong>observability</strong> (see which step failed), and <strong>failure recovery</strong> (stop or roll back safely). It comes last because you need something that runs before you can make it reliable, but you can't skip any of it before going live.</p>
+</details>
+<h2 id="sources-and-further-reading"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 3v15h3V3zm3 2 4 13 3-1-4-13zM5 5v13h3V5zM3 19v2h18v-2z"/></svg></span> Sources and further reading<a class="headerlink" href="#sources-and-further-reading" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/WenyuChiou/awesome-agentic-ai-zh/blob/main/README.en.md">Learning map home (README)</a></li>
+<li><a href="https://github.com/WenyuChiou/awesome-agentic-ai-zh/blob/main/ROADMAP.en.md">Roadmap (ROADMAP)</a></li>
+<li><a href="https://wenyuchiou.github.io/awesome-agentic-ai-zh/en/">The original author's docs site (easier on mobile)</a></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Tomorrow · Day 2</p>
+<p>Key terms, part 1: what tokens, context, and tools really are.</p>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+        
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer" >
+        
+          
+          <a href="index.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "navigation.footer", "navigation.indexes", "toc.follow", "search.highlight", "content.tabs.link"], "search": "assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+    
+  </body>
+</html>

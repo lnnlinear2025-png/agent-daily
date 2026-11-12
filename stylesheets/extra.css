@@ -1,0 +1,20 @@
+/* 思维导图：宽屏完整显示，窄屏可横向滑动 */
+.mm-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: .6em 0; }
+.mm-scroll svg { display: block; width: 100%; min-width: 820px; height: auto; }
+.mm-scroll svg a { cursor: pointer; }
+.mm-scroll svg a:hover rect { filter: brightness(1.08); }
+[data-md-color-scheme="slate"] .mm-scroll { background: #f6f7fb; border-radius: .6rem; padding: .4rem; }
+.mm-hint { text-align: center; font-size: .72rem; color: var(--md-default-fg-color--light); }
+
+/* 每日页顶部信息条 */
+.day-meta { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; font-size: .75rem;
+  color: var(--md-default-fg-color--light); margin: -.4rem 0 1rem; }
+
+/* Agent 循环流程 */
+.loop { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem; margin: .4rem 0 .8rem; }
+.loop span { background: var(--md-accent-fg-color--transparent); border-radius: .4rem; padding: .15rem .55rem; font-size: .75rem; }
+.loop i { font-style: normal; opacity: .5; }
+
+/* 名词卡片 */
+.md-typeset .grid.cards > ul > li { padding: .7rem .8rem; }
+.md-typeset .grid.cards > ul > li p { margin: .3em 0; }
